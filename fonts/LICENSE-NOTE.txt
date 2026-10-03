@@ -1,0 +1,3 @@
+Manrope © The Manrope Project Authors (https://github.com/sharanda/manrope)
+Licensed under the SIL Open Font License, Version 1.1 — https://openfontlicense.org
+Файл — подмножество (латиница + кириллица) оригинального variable-шрифта, формат WOFF2.
