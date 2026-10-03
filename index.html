@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Чат-бот в MAX под ключ — запись, заявки, перенос из Telegram | Бот-ателье</title>
+  <meta name="description" content="Разработка чат-ботов для мессенджера MAX: онлайн-запись для клиник и салонов, заявки и показания счётчиков для ЖКХ, перенос ботов из Telegram. От 25 000 ₽, запуск за 1–2 недели.">
+  <meta property="og:title" content="Чат-бот в MAX под ключ — от 25 000 ₽">
+  <meta property="og:description" content="Запись к врачу, заявки в УК, перенос из Telegram. Официальный API MAX, бот на вашей организации.">
+  <meta property="og:image" content="https://oqoxucufawo66-spec.github.io/bot-atelier/img/mock-clinic-3.png">
+  <meta name="theme-color" content="#0b0f14">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%2314b8a6'/><path d='M18 44V20l14 14 14-14v24' stroke='%2304201d' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="preload" href="fonts/Manrope-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav__in">
+    <a class="logo" href="#top"><img src="img/logo.svg" alt="Бот-ателье — чат-боты для MAX под ключ" height="44"></a>
+    <nav class="nav__links">
+      <a href="#cases">Решения</a>
+      <a href="#demo">Демо</a>
+      <a href="#price">Цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--sm" href="#contact">Обсудить проект</a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <p class="eyebrow">Разработка на официальном API MAX</p>
+        <h1>Чат-бот в&nbsp;<span class="accent">MAX</span> под&nbsp;ключ для клиник, ЖКХ и&nbsp;малого бизнеса</h1>
+        <p class="lead">Онлайн-запись, приём заявок, показания счётчиков, ответы на частые вопросы — клиенты решают всё в мессенджере, а администратор получает готовые заявки в рабочий чат. Перенесу и ваш бот из Telegram.</p>
+        <div class="hero__cta">
+          <a class="btn" href="#contact">Получить расчёт за 1 день</a>
+          <a class="btn btn--ghost" href="#demo">Смотреть демо</a>
+        </div>
+        <ul class="hero__facts">
+          <li><b>от&nbsp;25&nbsp;000&nbsp;₽</b><span>фиксированная цена</span></li>
+          <li><b>7–14 дней</b><span>до запуска</span></li>
+          <li><b>30 дней</b><span>гарантии и правок</span></li>
+        </ul>
+      </div>
+      <div class="hero__visual">
+        <div class="glow"></div>
+        <img src="img/mock-clinic-3.png" width="300" alt="Бот клиники в MAX: подтверждение записи к терапевту">
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="section why">
+    <div class="wrap grid3">
+      <div class="why__item"><span class="ico">🔒</span><h3>Бот — ваш</h3><p>Бот создаётся на верифицированном профиле вашей организации на платформе MAX для партнёров. Клиенты видят официальный бот компании, доступ и токен остаются у вас.</p></div>
+      <div class="why__item"><span class="ico">⚙️</span><h3>Не конструктор</h3><p>Код на Python под ваши процессы: расписание врачей, перерывы, длительность услуг, проверка показаний, роли администраторов. Без абонентской платы за конструктор.</p></div>
+      <div class="why__item"><span class="ico">🧾</span><h3>Прозрачно</h3><p>Фиксированная смета до старта, договор, оплата частями, чек самозанятого. Исходный код и инструкция по запуску передаются вам.</p></div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+  <section class="section" id="cases">
+    <div class="wrap">
+      <h2>Что умеет бот</h2>
+      <p class="sub">Готовые модули, которые настраиваются под вашу компанию, а не пишутся с нуля, — поэтому быстро и недорого.</p>
+      <div class="cards">
+        <article class="card">
+          <div class="card__ico">🩺</div>
+          <h3>Клиники и стоматологии</h3>
+          <ul>
+            <li>Запись: услуга → врач или «любой свободный» → дата → время</li>
+            <li>Учёт расписания, перерывов, длительности приёма</li>
+            <li>«Мои записи» с отменой, подтверждение регистратурой</li>
+            <li>Согласие на обработку ПДн (152-ФЗ), FAQ по подготовке</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card__ico">🏠</div>
+          <h3>УК, ТСЖ и ЖКХ</h3>
+          <ul>
+            <li>Заявки мастеру по категориям: адрес, описание, телефон</li>
+            <li>Статусы «В работу / Выполнено» с уведомлением жителя</li>
+            <li>Показания счётчиков: окно приёма, проверка значений</li>
+            <li>Ответы на типовые вопросы, контакты аварийной службы</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card__ico">💇</div>
+          <h3>Салоны и сервис</h3>
+          <ul>
+            <li>Запись к мастеру с выбором услуги и времени</li>
+            <li>Прайс прямо в кнопках, ссылки на оплату и карты</li>
+            <li>Диплинки и QR-коды: «отсканировал — записался»</li>
+            <li>Заявки в общий чат администраторов</li>
+          </ul>
+        </article>
+        <article class="card card--accent">
+          <div class="card__ico">✈️</div>
+          <h3>Перенос из Telegram</h3>
+          <ul>
+            <li>Переношу сценарии, тексты, кнопки и интеграции 1:1</li>
+            <li>Telegram-бот продолжает работать параллельно</li>
+            <li>Рассылка в старом боте со ссылкой на новый бот в MAX</li>
+            <li>Общая база заявок для обоих мессенджеров</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="section demo" id="demo">
+    <div class="wrap">
+      <h2>Демо: запись в клинику за минуту — без звонка</h2>
+      <p class="sub">Это не картинки из фотошопа: экраны сняты с работающего шаблона бота. Пациент жмёт кнопки, номер телефона отправляется одним касанием, а регистратура сразу видит запись.</p>
+      <div class="gallery">
+        <figure><img src="img/mock-clinic-1.png" width="280" alt="Главное меню, выбор услуги и врача"><figcaption><b>1.</b> Меню, услуга и врач</figcaption></figure>
+        <figure><img src="img/mock-clinic-2.png" width="280" alt="Выбор даты и времени, запрос номера телефона"><figcaption><b>2.</b> Свободные дата и время</figcaption></figure>
+        <figure><img src="img/mock-clinic-3.png" width="280" alt="Подтверждение записи"><figcaption><b>3.</b> Подтверждение записи</figcaption></figure>
+        <figure><img src="img/mock-admin.png" width="280" alt="Уведомление в чате регистратуры"><figcaption><b>4.</b> Чат регистратуры</figcaption></figure>
+        <figure><img src="img/mock-zhkh.png" width="280" alt="Заявка в управляющую компанию"><figcaption><b>Бонус.</b> Заявка в УК</figcaption></figure>
+      </div>
+      <div class="demo__note">
+        <div><b>Под капотом:</b> официальный MAX Bot API, вебхуки по HTTPS, защита от двойной записи на одно время, повторы запросов при сбоях, автотесты сценариев.</div>
+        <a class="btn btn--ghost" href="#contact">Хочу такой же</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE -->
+  <section class="section" id="price">
+    <div class="wrap">
+      <h2>Стоимость</h2>
+      <p class="sub">Цена фиксируется в смете до начала работ. Оплата: 50% на старте, 50% после запуска.</p>
+      <div class="prices">
+        <article class="price">
+          <h3>Старт</h3>
+          <div class="price__sum">25 000 ₽</div>
+          <p class="price__for">Бот-визитка и приём заявок</p>
+          <ul>
+            <li>Меню, FAQ, контакты, до 8 экранов</li>
+            <li>Заявки с телефоном в чат администратора</li>
+            <li>Диплинки и QR-код для сайта и ресепшена</li>
+            <li>Запуск за 5–7 рабочих дней</li>
+          </ul>
+          <a class="btn btn--ghost btn--block" href="#contact">Выбрать</a>
+        </article>
+        <article class="price price--hot">
+          <span class="badge">Чаще всего</span>
+          <h3>Запись / ЖКХ</h3>
+          <div class="price__sum">40 000 ₽</div>
+          <p class="price__for">Клиники, салоны, управляющие компании</p>
+          <ul>
+            <li>Всё из «Старта»</li>
+            <li>Онлайн-запись по расписанию <i>или</i> заявки + показания счётчиков</li>
+            <li>Подтверждение и статусы из админ-чата</li>
+            <li>«Мои записи», согласие на обработку ПДн</li>
+            <li>Запуск за 7–14 рабочих дней</li>
+          </ul>
+          <a class="btn btn--block" href="#contact">Выбрать</a>
+        </article>
+        <article class="price">
+          <h3>Интеграция</h3>
+          <div class="price__sum">от 60 000 ₽</div>
+          <p class="price__for">Перенос из Telegram и связка с CRM</p>
+          <ul>
+            <li>Перенос действующего Telegram-бота в MAX</li>
+            <li>Интеграция с CRM / МИС / YCLIENTS / 1С по API</li>
+            <li>Напоминания о визите, рассылки</li>
+            <li>Срок — 2–4 недели</li>
+          </ul>
+          <a class="btn btn--ghost btn--block" href="#contact">Обсудить</a>
+        </article>
+      </div>
+      <p class="fine">Хостинг (VPS или облако) оплачивается заказчиком напрямую провайдеру. Поддержка после гарантии — по договорённости.</p>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process">
+    <div class="wrap">
+      <h2>Как проходит работа</h2>
+      <ol class="steps">
+        <li><b>Созвон 30 минут</b><span>Разбираем, какие вопросы клиентов съедают время администратора.</span></li>
+        <li><b>Сценарий и смета</b><span>Схема диалога, тексты и фиксированная цена — в течение рабочего дня.</span></li>
+        <li><b>Подключение к MAX</b><span>Помогаю пройти верификацию профиля организации на платформе MAX для партнёров, создать бота и пройти модерацию.</span></li>
+        <li><b>Разработка и демо</b><span>Показываю работающий бот, вносим правки по текстам и логике.</span></li>
+        <li><b>Запуск</b><span>Сервер, HTTPS-вебхук, админ-чат, короткая инструкция для сотрудников.</span></li>
+        <li><b>30 дней гарантии</b><span>Исправляю ошибки и мелкие правки бесплатно, передаю код и доступы.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap faq">
+      <h2>Частые вопросы</h2>
+      <details open><summary>Кто может завести бота в MAX?</summary><p>Юрлица, ИП и самозанятые — резиденты РФ. Профиль организации верифицируется на платформе MAX для партнёров (через Госуслуги или банковский сервис), после этого создаётся бот и проходит модерацию. Я помогаю на каждом шаге.</p></details>
+      <details><summary>Можно ли перенести наш бот из Telegram?</summary><p>Да. Логику, тексты, кнопки и интеграции переношу на API MAX. Подписчики не переносятся автоматически, поэтому делаем рассылку в Telegram-боте со ссылкой на новый бот в MAX. Старый бот может работать параллельно.</p></details>
+      <details><summary>Как быть с персональными данными пациентов?</summary><p>Бот спрашивает согласие и даёт ссылку на вашу политику обработки ПДн. Данные хранятся на вашем сервере, в вашей базе или CRM. В сообщениях не храним медицинскую информацию сверх необходимого для записи.</p></details>
+      <details><summary>Мы уже работаем в CRM / МИС. Бот её заменит?</summary><p>Нет, бот станет ещё одним каналом: записи и заявки можно отправлять в вашу систему по API. Интеграция оценивается отдельно, после того как я посмотрю документацию системы.</p></details>
+      <details><summary>Что нужно от нас?</summary><p>Доступ к профилю компании на платформе MAX (или токен бота), список услуг и специалистов, расписание, тексты ответов на частые вопросы и 1–2 созвона.</p></details>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact__in">
+      <div>
+        <h2>Обсудим ваш бот?</h2>
+        <p class="sub">Напишите, чем занимается компания и какие задачи хотите отдать боту. Отвечу в течение рабочего дня и пришлю расчёт.</p>
+        <p class="who">Владимир — Python-разработчик, боты и веб-сервисы. Москва, работаю удалённо по всей России. Самозанятый: договор и чек.</p>
+      </div>
+      <div class="contact__links">
+        <a class="clink" href="https://t.me/Vladimirk005kk" target="_blank" rel="noopener"><span>Telegram</span><b>@Vladimirk005kk</b></a>
+        <a class="clink" href="mailto:matusevichus.vladimir@gmail.com?subject=%D0%91%D0%BE%D1%82%20%D0%B2%20MAX"><span>Email</span><b>matusevichus.vladimir@gmail.com</b></a>
+        <div class="clink clink--muted"><span>MAX</span><b>ссылка появится после запуска</b></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <span>© 2026 «Бот-ателье» · Владимир, самозанятый · разработка чат-ботов для MAX</span>
+    <span>MAX — товарный знак правообладателя. Сайт не является официальным ресурсом MAX.</span>
+  </div>
+</footer>
+</body>
+</html>
